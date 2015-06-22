@@ -26,6 +26,8 @@ namespace ShopMe.Droid
 		
 		public static void UpdateIdValues()
 		{
+			global::PRAAdapterLess.Resource.String.ApplicationName = global::ShopMe.Droid.Resource.String.ApplicationName;
+			global::PRAAdapterLess.Resource.String.Hello = global::ShopMe.Droid.Resource.String.Hello;
 		}
 		
 		public partial class Attribute
@@ -45,7 +47,10 @@ namespace ShopMe.Droid
 		{
 			
 			// aapt resource value: 0x7f020000
-			public const int Icon = 2130837504;
+			public const int cart = 2130837504;
+			
+			// aapt resource value: 0x7f020001
+			public const int Icon = 2130837505;
 			
 			static Drawable()
 			{
@@ -60,8 +65,26 @@ namespace ShopMe.Droid
 		public partial class Id
 		{
 			
+			// aapt resource value: 0x7f050002
+			public const int bottomTagLayout = 2131034114;
+			
+			// aapt resource value: 0x7f050005
+			public const int btnCart = 2131034117;
+			
 			// aapt resource value: 0x7f050000
-			public const int myButton = 2131034112;
+			public const int itemMainLayout = 2131034112;
+			
+			// aapt resource value: 0x7f050004
+			public const int lblProductPrice = 2131034116;
+			
+			// aapt resource value: 0x7f050003
+			public const int lblProductTitle = 2131034115;
+			
+			// aapt resource value: 0x7f050006
+			public const int productGrid = 2131034118;
+			
+			// aapt resource value: 0x7f050001
+			public const int productImageView = 2131034113;
 			
 			static Id()
 			{
@@ -77,7 +100,10 @@ namespace ShopMe.Droid
 		{
 			
 			// aapt resource value: 0x7f030000
-			public const int Main = 2130903040;
+			public const int ProductItemLayout = 2130903040;
+			
+			// aapt resource value: 0x7f030001
+			public const int ProductLayout = 2130903041;
 			
 			static Layout()
 			{
@@ -93,10 +119,16 @@ namespace ShopMe.Droid
 		{
 			
 			// aapt resource value: 0x7f040001
-			public const int app_name = 2130968577;
+			public const int ApplicationName = 2130968577;
 			
 			// aapt resource value: 0x7f040000
-			public const int hello = 2130968576;
+			public const int Hello = 2130968576;
+			
+			// aapt resource value: 0x7f040003
+			public const int app_name = 2130968579;
+			
+			// aapt resource value: 0x7f040002
+			public const int hello = 2130968578;
 			
 			static String()
 			{
