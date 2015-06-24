@@ -1,0 +1,14 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/ShopMe/ShopMe.Droid/bin/Debug
+/ShopMe/ShopMe.Droid/obj/Debug
+/ShopMe/ShopMe.iOS/obj/iPhone/Debug
+/ShopMe.ApiService/bin
+/ShopMe.ApiService/obj/Debug
+/packages
+/Components
+/ShopMe.Core/bin/Debug
+/ShopMe.Core/obj/Debug
+/ShopMe.DataService/obj/Debug
