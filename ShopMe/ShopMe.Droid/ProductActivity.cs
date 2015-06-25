@@ -24,11 +24,11 @@ namespace ShopMe.Droid
             SetContentView(Resource.Layout.ProductLayout);
             // Create your application here
 
-            PRAService.Register<IDataRowView<Product>>(this);
+           // PRAService.Register<IDataRowView<Product>>(this);
 
             var productGrids = FindViewById<GridView>(Resource.Id.productGrid);
-            productGrids.Adapter = new PRAAdapter<Product>(this, DataProvider.GetData());
-
+            //productGrids.Adapter = new PRAAdapter<Product>(this, DataProvider.GetData());
+            productGrids.Adapter = new ProductsAdapter(this, DataProvider.GetData());
         }
 
         View IDataRowView<Product>.GetDataRowView(int position, View convertView, ViewGroup parent, Product item)
