@@ -12,7 +12,7 @@ using Android.Widget;
 
 namespace ShopMe.Droid
 {
-    public  class ProductsAdapter
+    public class ProductsAdapter
     {
     }
 }

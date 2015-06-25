@@ -39,7 +39,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="PRAAdapterLess">
-      <HintPath>..\..\Components\PRADataBinder-1.1\lib\android\PRAAdapterLess.dll</HintPath>
+      <HintPath>..\..\..\..\..\Downloads\PRADataBinder-1.1\lib\android\PRAAdapterLess.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Xml" />
@@ -85,12 +85,6 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable-xxxhdpi\cart.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <XamarinComponentReference Include="PRADataBinder">
-      <Visible>False</Visible>
-      <Version>1.1</Version>
-    </XamarinComponentReference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\ShopMe.Core\ShopMe.Core.csproj">
