@@ -39,7 +39,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="PRAAdapterLess">
-      <HintPath>..\..\Components\PRADataBinder-1.1\lib\android\PRAAdapterLess.dll</HintPath>
+      <HintPath>C:\Users\Administrator\Downloads\PRADataBinder-1.1\lib\android\PRAAdapterLess.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Xml" />
@@ -47,7 +47,6 @@
     <Reference Include="Mono.Android" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Adapters\ProductsAdapter.cs" />
     <Compile Include="ProductActivity.cs" />
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -87,16 +86,13 @@
     <AndroidResource Include="Resources\drawable-xxxhdpi\cart.png" />
   </ItemGroup>
   <ItemGroup>
-    <XamarinComponentReference Include="PRADataBinder">
-      <Visible>False</Visible>
-      <Version>1.1</Version>
-    </XamarinComponentReference>
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\..\ShopMe.Core\ShopMe.Core.csproj">
       <Project>{4741d4ef-3c7c-49e6-850e-819154a70f69}</Project>
       <Name>ShopMe.Core</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Adapters\" />
   </ItemGroup>
   <Import Project="..\ShopMe\ShopMe.projitems" Label="Shared" Condition="Exists('..\ShopMe\ShopMe.projitems')" />
   <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
